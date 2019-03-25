@@ -1,0 +1,5 @@
+#PS1='($(date +%Y%m%d ;date +%H%M%S) `pwd`\)\n\$ '
+#PS1='(RC=[$(echo $?)] $(date) `pwd`\)\n\h:\W \u\$ '
+PS1='(RC=[$?] $(date) `pwd`\)\n\h:\W \u\$ '
+alias ll='ls -la'
+alias gats='cd ~/NetBeansProjects/ATS;git status'
